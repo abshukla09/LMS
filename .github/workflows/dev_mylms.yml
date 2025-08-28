@@ -6,8 +6,10 @@ name: Build and deploy ASP.Net Core app to Azure Web App - mylms
 on:
   push:
     branches:
-      - Dev
-  workflow_dispatch:
+      - main
+       -Dev
+    paths-ignore:
+      - '.github/workflows/**'   # Ignore workflow-only changes
 
 jobs:
   build:
@@ -52,4 +54,5 @@ jobs:
           app-name: 'mylms'
           slot-name: 'Production'
           package: .
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D41248EE8B544CBD9BC1120CD923E9EE }}
