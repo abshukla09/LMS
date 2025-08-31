@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\DOTNET\\CoreAPI\\LeadManagment\\LMS\\LMS.csproj": {}
+    "F:\\DOTNET\\CoreAPI\\LeadManagment\\lms1\\LMS\\LMS.csproj": {}
   },
   "projects": {
-    "F:\\DOTNET\\CoreAPI\\LeadManagment\\LMS\\LMS.csproj": {
+    "F:\\DOTNET\\CoreAPI\\LeadManagment\\lms1\\LMS\\LMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\DOTNET\\CoreAPI\\LeadManagment\\LMS\\LMS.csproj",
+        "projectUniqueName": "F:\\DOTNET\\CoreAPI\\LeadManagment\\lms1\\LMS\\LMS.csproj",
         "projectName": "LMS",
-        "projectPath": "F:\\DOTNET\\CoreAPI\\LeadManagment\\LMS\\LMS.csproj",
+        "projectPath": "F:\\DOTNET\\CoreAPI\\LeadManagment\\lms1\\LMS\\LMS.csproj",
         "packagesPath": "C:\\Users\\Gunnu\\.nuget\\packages\\",
-        "outputPath": "F:\\DOTNET\\CoreAPI\\LeadManagment\\LMS\\obj\\",
+        "outputPath": "F:\\DOTNET\\CoreAPI\\LeadManagment\\lms1\\LMS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gunnu\\AppData\\Roaming\\NuGet\\NuGet.Config"

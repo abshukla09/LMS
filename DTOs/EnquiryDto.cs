@@ -11,4 +11,6 @@ public class EnquiryDto
     public int StatusId { get; set; }
     public string? StatusName { get; set; }
     public DateTime? CreatedDate { get; set; }
+
+    public string? AssignedUserName { get; set; }
 }
