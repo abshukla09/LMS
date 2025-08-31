@@ -4,9 +4,6 @@
 name: Build and deploy ASP.Net Core app to Azure Web App - mylms
 
 on:
-  push:
-    branches:
-      - Dev
   workflow_dispatch:
 
 jobs:
@@ -52,4 +49,5 @@ jobs:
           app-name: 'mylms'
           slot-name: 'Production'
           package: .
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D41248EE8B544CBD9BC1120CD923E9EE }}
